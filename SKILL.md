@@ -22,6 +22,16 @@ capabilities:
     - "write outside own data folder"
     - "modify other skills"
     - "cite web-sourced technicals"
+unix_contract:
+  data_format: "jsonl"
+  schema_version: "0.1.0"
+  stdin_support: false
+  stdout_format: "json"
+  composable_with:
+    - "price-desk"
+    - "fundamentals-desk"
+    - "royal-rumble"
+    - "tier"
 ---
 
 # Technicals Desk — The Technical Analyst
