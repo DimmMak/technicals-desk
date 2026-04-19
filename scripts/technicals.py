@@ -9,7 +9,7 @@ Usage:
   python3 technicals.py                     → menu
   python3 technicals.py TICKER              → full technicals
   python3 technicals.py TICKER1 TICKER2 ... → batch
-  python3 technicals.py watchlist           → read waypoint-capital/watchlist.md
+  python3 technicals.py watchlist           → read blue-hill-capital/watchlist.md
   python3 technicals.py log [N]             → recent pulls
 """
 import sys
@@ -38,7 +38,7 @@ What do you want to pull?
      .technicals NVDA AMD MU            (batch)
 
 2. 👀 Pull the watchlist
-     .technicals watchlist              (reads waypoint-capital/watchlist.md)
+     .technicals watchlist              (reads blue-hill-capital/watchlist.md)
 
 3. 📜 Show recent pulls
      .technicals log [N]                (last N from technicals-log.jsonl)
@@ -222,7 +222,7 @@ def get_technicals(ticker):
 
 
 def read_watchlist():
-    path = Path.home() / "Desktop/CLAUDE CODE/waypoint-capital/watchlist.md"
+    path = Path.home() / "Desktop/CLAUDE CODE/blue-hill-capital/watchlist.md"
     if not path.exists():
         return None, f"No watchlist at {path}"
     tickers = []

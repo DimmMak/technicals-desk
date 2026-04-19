@@ -1,6 +1,6 @@
 # 📈 Technicals Desk
 
-> Technical Analyst for Waypoint Capital. Third data-layer brick after price-desk + fundamentals-desk.
+> Technical Analyst for Blue Hill Capital. Third data-layer brick after price-desk + fundamentals-desk.
 
 Computes technical indicators directly from yfinance daily OHLCV — zero web-search dependency.
 

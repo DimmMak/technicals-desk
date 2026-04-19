@@ -3,7 +3,7 @@ name: technicals-desk
 version: 0.1.0
 role: Technical Analyst
 description: >
-  Live technical-indicator single source of truth for Waypoint Capital. Third
+  Live technical-indicator single source of truth for Blue Hill Capital. Third
   leg of the data-layer triangle (after price-desk + fundamentals-desk).
   Computes indicators deterministically from yfinance 1-year OHLCV history.
   Replaces web-search-sourced technicals which were frequently stale.
