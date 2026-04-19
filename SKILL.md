@@ -9,6 +9,19 @@ description: >
   Computes indicators deterministically from yfinance 1-year OHLCV history.
   Replaces web-search-sourced technicals which were frequently stale.
   Commands: .technicals | .technicals TICKER | .technicals watchlist | .technicals log
+  NOT for: prices (use price-desk).
+  NOT for: fundamentals (use fundamentals-desk).
+  NOT for: committee analysis (use .rumble).
+capabilities:
+  reads:
+    - "yfinance API (1y OHLCV history)"
+  writes:
+    - "technicals-desk/data/technicals-log.jsonl"
+  calls: []
+  cannot:
+    - "write outside own data folder"
+    - "modify other skills"
+    - "cite web-sourced technicals"
 ---
 
 # Technicals Desk — The Technical Analyst
