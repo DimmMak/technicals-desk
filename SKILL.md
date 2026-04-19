@@ -1,7 +1,7 @@
 ---
 name: technicals-desk
 domain: fund
-version: 0.1.0
+version: 0.2.0
 role: Technical Analyst
 description: >
   Live technical-indicator single source of truth for Blue Hill Capital. Third
