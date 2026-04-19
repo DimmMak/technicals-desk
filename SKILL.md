@@ -1,5 +1,6 @@
 ---
 name: technicals-desk
+domain: fund
 version: 0.1.0
 role: Technical Analyst
 description: >
