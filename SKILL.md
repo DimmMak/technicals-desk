@@ -1,8 +1,9 @@
 ---
-name: technicals-desk
+name: quant
+aliases: [technicals-desk, technicals]
 domain: fund
-version: 0.2.0
-role: Technical Analyst
+version: 0.3.0
+role: Quantitative Analyst (Technicals / Algo / Patterns)
 description: >
   Live technical-indicator single source of truth for Blue Hill Capital. Third
   leg of the data-layer triangle (after price-desk + fundamentals-desk).
